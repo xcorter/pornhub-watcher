@@ -2,10 +2,10 @@
   "manifest_version": 2,
   "name": "Pornhub watcher",
   "description": "Плагин убирает блок с авторизацией через VK для русских IP",
-  "version": "1.0",
+  "version": "1.1",
   "content_scripts": [
     {
-      "matches": ["https://www.pornhub.com/*"],
+      "matches": ["https://www.pornhub.com/*", "https://*.pornhub.com/*"],
       "css": ["main.css"]
     }
   ],
